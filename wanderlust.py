@@ -1,6 +1,9 @@
 import json
 import os
 
+from dotenv import load_dotenv
+load_dotenv()  # This is the way to load .env file
+
 import ipyleaflet
 from openai import OpenAI, NotFoundError
 from openai.types.beta import Thread
