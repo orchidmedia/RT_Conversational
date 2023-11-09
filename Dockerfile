@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY --chown=user travel.py travel.py
 
-ENTRYPOINT ["solara", "run", "wanderlust.py", "--host=0.0.0.0", "--port", "7860"]
+ENTRYPOINT ["solara", "run", "travel.py", "--host=0.0.0.0", "--port", "7860"]
