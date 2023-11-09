@@ -5,9 +5,8 @@ RUN useradd -m -u 1000 user
 # Switch to the "user" user
 USER user
 # Set home to the user's home directory
-ENV HOME=/home/user \
-	PATH=/home/user/.local/bin:$PATH
-
+ENV HOME=/Users/miguel/Desktop/conversational_om/user \
+	PATH=/Users/miguel/Desktop/conversational_om/user/.local/bin:$PATH
 # Upgreade pip
 RUN pip install --no-cache-dir --upgrade pip
 
