@@ -2,3 +2,4 @@
 solara @ https://github.com/widgetti/solara/archive/refs/heads/master.zip
 openai
 ipyleaflet==0.17.2
+python-dotenv
