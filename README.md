@@ -5,7 +5,7 @@ colorFrom: red
 colorTo: pink
 sdk: docker
 pinned: false
-license: mit
+license: orchid
 app_port: 7860
 ---
 

@@ -142,7 +142,7 @@ def ChatInterface():
         messages.set([*messages.value, new_message])
         run_id.value = openai.beta.threads.runs.create(
             thread_id=thread.id,
-            assistant_id="asst_RqVKAzaybZ8un7chIwPCIQdH",
+            assistant_id="asst_zQvyPQVhZDo2Djpn6MiUl5Wb",
             tools=tools,
         ).id
 
